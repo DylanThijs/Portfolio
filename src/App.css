@@ -1,0 +1,85 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+  background-color:#353535;
+}
+.App {
+  font-family: 'Signika', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.home-content {
+	width:1000px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 100px 200px 100px;
+	background-color: red;
+}
+.intro {
+	background-color: darkgreen;
+	display:grid;
+	grid-column: 1 / 1;
+	grid-row: 2 / 2;
+	align-content: center;
+}
+
+.mainmenu {
+	background-color: royalblue;
+	display: grid;
+	grid-column:2 / 2;
+	grid-row:2 / 43;
+	justify-content: center;
+	align-content: center;
+}
+
+.mainitems {
+	color:#fff;
+	display: grid;
+    grid-gap: 10px;
+    list-style: none;
+	text-align: center;
+	font-size: 1.75rem;
+	padding:2rem;
+}
+.welkom {
+	color:#fff;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.75rem;
+	padding:10px 0;
+}
+
+p {
+	font-size:1rem;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color:rgb(236, 212, 146);
+}
