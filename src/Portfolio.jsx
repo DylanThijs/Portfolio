@@ -5,6 +5,7 @@ import "./App.css";
 function Portfolio() {
   return (
     <div className="App">
+    <Navbar />
       <h1>Portfolio page</h1>
     </div>
   );
