@@ -37,8 +37,8 @@ function About() {
           
           <div className="images">
 
-              <img src="https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Mijn werkplek" className="images-item-top"></img>
-              <img src="https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Mijn werkplek" className="images-item-bottom"></img>
+              <img src="https://images.pexels.com/photos/4050312/pexels-photo-4050312.jpeg?cs=srgb&dl=pexels-vlada-karpovich-4050312.jpg&fm=jpg" alt="Mijn werkplek" className="images-item-top"></img>
+              <img src="https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?cs=srgb&dl=pexels-ovan-62689.jpg&fm=jpg" alt="Mijn werkplek" className="images-item-bottom"></img>
           
           
           </div>

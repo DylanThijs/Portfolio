@@ -6,45 +6,39 @@
 }
 
 .about-content {
-    width:75vw;
+    width:1000px;
+    max-width:80vw;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 10vh 30vh;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 10vh 30vh;
 }
 
 .about {
     display:grid;
     grid-column: 1 / 1;
 	grid-row: 2 / 2;
-	max-width: 50vw;
+	max-width: 35vw;
 }
 
 .images {
     display: grid;
 	grid-column:2 / 2;
     grid-row:2 / 4;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-	align-content: center;
-    justify-content: center;
     max-width: 50vw;
 }
 
 .images-item-top {
     display: grid;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    max-width:100%;
-    max-height:100%;
+    grid-column: 2/ span 2;
+    grid-row: 1/ span 2;
     border: 6px solid rgb(235, 197, 95);
+    max-width: 100%;
 }
 
 .images-item-bottom {
     display: grid;
-    grid-column: 1/2;
-    grid-row: 2/3;
-    max-width:100%;
-    max-height:100%;
+    grid-column: 1 /span 2;
+    grid-row: 2 / span 2;
+    max-width: 100%;
     border: 6px solid rgb(235, 197, 95);
-    z-index: 1;
 }

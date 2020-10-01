@@ -58,7 +58,7 @@ p {
 }
 
 .container {
-	display: flex;
+	display: grid;
 	justify-content: center;
 	align-content: center;
 }
@@ -66,13 +66,13 @@ p {
 .home-content {
 	width:75vw;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 30vh 30vh 10vh;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-rows: 20vh 40vh 30vh;
 }
 .intro {
 	grid-column: 1 / 1;
 	grid-row: 2 / 2;
-	max-width: 25vw;
+	max-width: 30vw;
 }
 
 .mainmenu {
@@ -104,6 +104,7 @@ p {
 	grid-column: 1 / 1;
 	grid-row: 3 / 3;
 	font-size: 2rem;
+	align-self: flex-end;
 }
 
 .fab {
