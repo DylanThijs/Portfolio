@@ -37,10 +37,13 @@ function About() {
           
           <div className="images">
 
-              <img src="https://images.pexels.com/photos/4050312/pexels-photo-4050312.jpeg?cs=srgb&dl=pexels-vlada-karpovich-4050312.jpg&fm=jpg" alt="Mijn werkplek" className="images-item-top"></img>
-              <img src="https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?cs=srgb&dl=pexels-ovan-62689.jpg&fm=jpg" alt="Mijn werkplek" className="images-item-bottom"></img>
+              <img src="https://images.pexels.com/photos/4050312/pexels-photo-4050312.jpeg?cs=srgb&dl=pexels-vlada-karpovich-4050312.jpg&fm=jpg" alt="Mijn werkplek" className="images-item-top"/>
+              <img src="https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?cs=srgb&dl=pexels-elvis-2528118.jpg&fm=jpg" alt="Mijn werkplek" className="images-item-bottom"/>
           
-          
+          </div>
+
+          <div className="cv">
+            <button type="button" className="cvbutton">Download CV</button>
           </div>
 
         </div>  
