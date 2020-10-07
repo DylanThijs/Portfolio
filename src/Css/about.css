@@ -31,7 +31,8 @@
     grid-column: 2/ span 2;
     grid-row: 1 / span 2;
     border: 6px solid rgb(235, 197, 95);
-    max-width: 300px;
+    max-height: 400px;
+    max-width: 250px;
     width: 100%;
     justify-self: end;
 }
@@ -41,7 +42,8 @@
     grid-column: 1/ span 2;
     grid-row: 2/ span 2;
     border: 6px solid rgb(235, 197, 95);
-    max-width: 300px;
+    max-height: 400px;
+    max-width: 250px;
     width: 100%;
     justify-self: end;
 }

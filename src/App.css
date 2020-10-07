@@ -68,7 +68,6 @@ p {
 	width:75vw;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-template-rows: repeat(3, 20vh);
 }
 .intro {
 	grid-column: 1 / 1;

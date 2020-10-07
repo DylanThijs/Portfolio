@@ -11,7 +11,7 @@ function Portfolio() {
     <div className="container">
       <div className="portfolio-content">
         <Thumbnail
-          link=""
+          link="/project1"
           image="http://via.placeholder.com/800x600/C72B41/800834"
           title="Test titel"
           category="Dit is een korte beschrijving van het project"
