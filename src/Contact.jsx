@@ -17,12 +17,38 @@ function Contact() {
             zal u zo spoedig mogelijk een reactie terug sturen.
           </p>
           </div>
+         <div className="formcont"> 
           <div className="formulier">
             <form>
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>
+              <div className="group">
+                <input type="text" required></input>
+                <span className="hightlight"></span>
+                <label>Naam</label>
+              </div>
+
+              <div className="group">
+              <input type="text" required></input>
+              <span className="hightlight"></span>
+              <label>E-mail</label>
+              </div>
+
+              <div className="group">
+              <input type="text" required></input>
+              <span className="hightlight"></span>
+              <label>Telefoon</label>
+              </div>
+
+              <div className="group">
+              <textarea type="text" required></textarea>
+              <span className="hightlight"></span>
+              <label>Bericht</label>
+              </div>
+
+              <button type="button" className="contactbutton">Verstuur</button>
+
             </form>
           </div>
+        </div>
         </div> 
 
       </div>

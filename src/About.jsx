@@ -1,5 +1,6 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar"
+import Navbar from "./components/Navbar/Navbar";
+import Slider from './components/Slider';
 import "./App.css";
 import "./Css/about.css";
 
