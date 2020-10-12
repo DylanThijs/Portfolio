@@ -1,0 +1,10 @@
+.slider {
+    height:40vh;
+    max-height:500px;
+    width: 100%;
+    background-color:red;
+}
+
+.Slidercontent {
+    background-color: blue;
+}
