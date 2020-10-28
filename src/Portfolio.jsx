@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import "./components/thumbnail.css";
 import Thumbnail from "./components/Thumbnail";
+import image from "./images/Magusmain.png";
+import image1 from "./images/heuchmer.png";
+import image2 from "./images/Sabrosa.png";
 
 function Portfolio() {
   return (
@@ -12,44 +15,24 @@ function Portfolio() {
       <div className="portfolio-content">
         <Thumbnail
           link="/project1"
-          image="http://via.placeholder.com/800x600/C72B41/800834"
-          title="Test titel"
-          category="Dit is een korte beschrijving van het project"
+          image={image}
+          title="Magus Media"
+          category="Magus Media is een website die samen met een vriend is gemaakt. 
+          Deze website hebben we gemaakt omdat we samen een bedrijf wouden starten"
         />
 
         <Thumbnail
           link=""
-          image="http://via.placeholder.com/800x600/C72B41/800834"
-          title="Test titel"
-          category="Dit is een korte beschrijving van het project"
+          image={image1}
+          title="Heuchemer Kappers"
+          category="Onder de naam Magus Media heb ik meegewerkt aan een website voor een kapper"
         />
 
         <Thumbnail
           link=""
-          image="http://via.placeholder.com/800x600/C72B41/800834"
-          title="Test titel"
-          category="Dit is een korte beschrijving van het project"
-        />
-
-        <Thumbnail
-          link=""
-          image="http://via.placeholder.com/800x600/C72B41/800834"
-          title="Test titel"
-          category="Dit is een korte beschrijving van het project"
-        />
-
-        <Thumbnail
-        link=""
-        image="http://via.placeholder.com/800x600/C72B41/800834"
-        title="Test titel"
-        category="Dit is een korte beschrijving van het project"
-        />
-
-        <Thumbnail
-        link=""
-        image="http://via.placeholder.com/800x600/C72B41/800834"
-        title="Test titel"
-        category="Dit is een korte beschrijving van het project"
+          image={image2}
+          title="Sabrosa"
+          category="Voor mijn broer heb ik in mijn vrije tijd een website gemaakt voor zijn eigen bedrijf"
         />
 
       </div>

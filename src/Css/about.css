@@ -48,6 +48,12 @@
     justify-self: end;
 }
 
+.images-item-bottom:hover, .images-item-top:hover {
+    transform: scale(1.2);
+    z-index: 2; /* A hovered expander is always on top */
+    transition: transform 400ms 0ms, z-index 0ms 0ms;
+} 
+
 .cv {
     grid-row: 2 / 2;
 }

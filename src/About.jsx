@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Slider from './components/Slider';
 import "./App.css";
 import "./Css/about.css";
+import pdf from "./images/DylanThijs_CV.pdf";
 
 function About() {
   return (
@@ -15,23 +15,26 @@ function About() {
 
             <h1 className="kopje">Over mij</h1>
 
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            <p>Mijn naam is Dylan Thijs, ik ben 26 jaar en ik woon in Utrecht. 
+            Op dit moment studeer ik Open-ICT aan de Hogeschool Utrecht. Daarvoor heb ik 
+            Interactive Media Design gestudeerd aan het Grafisch Lyceum Rotterdam. Naast mijn 
+            opleiding werk ik ook bij de Mediamarkt als verkoopmedewerker. 
+            Na mijn opleiding wil ik graag verder met programeren maar weet ik nog niet zeker 
+            welke richting. Hier hoop ik tijdens mijn opleiding achter te komen.
             </p>
 
             <h1 className="kopje">Wat kan ik allemaal</h1>
 
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
-            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, 
-            quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
-            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
-            vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+            <p>Tijdens mijn MBO opleiding op het Grafisch Lyceum heb ik verschillende ontwerptechnieken 
+            en codeertalen geleerd. Hierbij kan je denken aan grafisch ontwerpen. Bijvoorbeeld Logo ontwerp, 
+            concept design, animatie en 3d design. Daarnaast heb ik ook gewerkt met HTML/CSS en Javascript. 
+            Deze skills heb ik tijdens mijn stage ook verder kunnen ontwikkelen tot een goed niveau.
+            Hierdoor ken ik de basis en kan ik goed werken met verschillende programma's. 
+            Hierbij kunt u denken aan het Adobe pakket bijvoorbeeld Photoshop, Indesign en After effects.
+            Daarnaast kan ik ook om gaan met Visual studio code en andere tekstverwerkings programma's
+            </p>
+            <p>
+            Hieronder kunt u mijn cv downloaden voor meer informatie.
             </p>
 
           </div>
@@ -44,8 +47,9 @@ function About() {
           </div>
 
           <div className="cv">
-            <button type="button" className="cvbutton">Download CV</button>
+            <a href={pdf} target="_blank"><button type="button" className="cvbutton">Download CV</button></a>
           </div>
+
 
         </div>  
       </div> 
