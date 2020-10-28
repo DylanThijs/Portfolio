@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import "./Css/about.css";
 import pdf from "./images/DylanThijs_CV.pdf";
+import Dylan from "./images/Dylan.png";
 
 function About() {
   return (
@@ -42,7 +43,7 @@ function About() {
           <div className="images">
 
               <img src="https://images.pexels.com/photos/4050312/pexels-photo-4050312.jpeg?cs=srgb&dl=pexels-vlada-karpovich-4050312.jpg&fm=jpg" alt="Mijn werkplek" className="images-item-top"/>
-              <img src="https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?cs=srgb&dl=pexels-elvis-2528118.jpg&fm=jpg" alt="Mijn werkplek" className="images-item-bottom"/>
+              <img src={Dylan} alt="Mijn werkplek" className="images-item-bottom"/>
           
           </div>
 

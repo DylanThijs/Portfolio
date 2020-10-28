@@ -22,14 +22,14 @@ function Portfolio() {
         />
 
         <Thumbnail
-          link=""
+          link="/project1"
           image={image1}
           title="Heuchemer Kappers"
           category="Onder de naam Magus Media heb ik meegewerkt aan een website voor een kapper"
         />
 
         <Thumbnail
-          link=""
+          link="/project1"
           image={image2}
           title="Sabrosa"
           category="Voor mijn broer heb ik in mijn vrije tijd een website gemaakt voor zijn eigen bedrijf"
